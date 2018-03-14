@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/principal_login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_margin_top"
+        android:textSize="@dimen/text_size"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:id="@+id/edt_name"
+        android:hint="@string/hnt_name"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/size_top"
+        android:layout_marginBottom="@dimen/size_bottom"
+        android:layout_marginRight="@dimen/size_margin"
+        android:layout_marginLeft="@dimen/size_margin"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorPrimary"
+        android:singleLine="true"
+        android:layout_marginBottom="@dimen/size_margin"
+        android:layout_marginRight="@dimen/size_margin"
+        android:layout_marginLeft="@dimen/size_margin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:text="@string/login"
+        android:layout_marginBottom="@dimen/size_margin"
+        android:layout_marginRight="@dimen/size_margin"
+        android:layout_marginLeft="@dimen/size_margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_registry"
+        android:text="@string/registry"
+        android:layout_marginBottom="@dimen/size_margin"
+        android:layout_marginRight="@dimen/size_margin"
+        android:layout_marginLeft="@dimen/size_margin"
+        />
+
+
+
+</LinearLayout>

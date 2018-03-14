@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="mx.edu.utng.vgutierrez.videodolores.HandicraftsActivity">
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselPicker1"
+    android:layout_marginTop="@dimen/size_top"
+    android:layout_marginBottom="@dimen/size_top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:items_visible="three"></in.goodiebag.carouselpicker.CarouselPicker>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_heigth"
+        android:textColor="@color/colorWhite"
+        android:textStyle="italic"
+        android:text="@string/txt_contents"
+        android:textSize="@dimen/text_sizes"/>
+
+
+</LinearLayout>

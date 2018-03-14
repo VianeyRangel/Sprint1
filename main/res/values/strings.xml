@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Video</string>
+    <string name="txt_coment">Comentario</string>
+    <string name="txt_content">Esté vídeo muestra un poco sobre la cultura que se tiene en Dolores Hidalgo C.I.N., Gto, su gente, sus iglesias, su historia, no habrá un mejor lugar para conocer está historia como lo es en el museo Casa de los Descendientes de Hidalgo, ven y atrevete a vivir una experiencia inolvidable en esté bello pueblo</string>
+    <string name="hnt_name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Entrar</string>
+    <string name="registry">Registrar</string>
+    <string name="principal_login">Login Principal</string>
+    <string name="register_user">Registrar Usuario</string>
+    <string name="name">Nombre</string>
+    <string name="txt_contents">Dolores Hidalgo se ha caracterizado, por ser una zona donde se producen las mejores artesanías a traves de los tiempos las familias Dolorenses, ha dado su máximo esfuerzo por crear las mejores piezas, miles de personas ha participado en concursos internacionales, esto ha echo crecer la fama de Dolores y Gracias a ello se han registrado más visistas en los ultimos años, ven y visita tú pueblo.</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="get_out">Salir</string>
+    <string name="registry">Registrar</string>
+    <string name="pass">Password</string>
+
+</resources>
